@@ -6,7 +6,9 @@ Rails.application.routes.draw do
   devise_scope :user do
     get 'users/sign_out' => 'devise/sessions#destroy'
   end
-
+  unauthenticated :user do
+    root to: "home#index", as: "home"
+  end
   # Defines the root path route ("/")
   # root "articles#index"
   root 'group#index'

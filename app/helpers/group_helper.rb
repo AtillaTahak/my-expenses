@@ -12,7 +12,7 @@ module GroupHelper
     when 'other'
       'fa fa-bag-personal'
     else
-     ' fa fa-amazon-pay'
+     'fa fa-graduation-cap'
     end
   end
 end
