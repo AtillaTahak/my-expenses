@@ -1,24 +1,92 @@
-# README
+# Budget mobile app
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+> Ruby or Rails capstone project
+# Description
+The Ruby on Rails capstone project is about building a mobile web application where you can manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.
 
-Things you may want to cover:
+You will create a Ruby on Rails application that allows the user to:
 
-* Ruby version
+register and log in, so that the data is private to them.
+introduce new transactions associated with a category.
+see the money spent on each category.
 
-* System dependencies
+# Demo Link
+[Click here](https://epic-benz-1e003c.netlify.app)
+# Loom Video
+[Click here](https://www.loom.com/share/7989bc3a0ddb4740b5f0f01e8c072c7a)
 
-* Configuration
 
-* Database creation
+# Screenshot
 
-* Database initialization
+![Image of the Mobil View](Screenshot_1.png)
+![Image of the Mobil View](Screenshot_2.png)
+![Image of the Mobil View](Screenshot_3.png)
+![Image of the Mobil View](Screenshot_4.png)
+![Image of the Mobil View](Screenshot_5.png)
+![Image of the Mobil View](Screenshot_6.png)
+![Image of the Mobil View](Screenshot_7.png)
+![Image of the Mobil View](Screenshot_8.png)
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
+# Getting Started
 
-* ...
+To get a local copy up and running follow these simple steps.
+
+- You can clone this repo by typing `git clone https://github.com/AtillaTahak/my-expenses` on your terminal.
+
+- Type `cd my-expenses` to access the project on the terminal.
+  
+- Run `bundle install` from your editor's terminal.
+
+- Run `rails s` from your editor's terminal.
+
+- Run `rubocop` . to check for HTML Linter errors.
+
+
+
+# This project was built with:
+
+Languages: Ruby
+
+Framework: Ruby on Rails
+
+Database: PostgreSQL
+
+icon and css framework : fontawesome  and bootstrap
+
+
+# Version Control System
+
+GIT
+
+
+# 👤 Authors
+
+
+👤 **ATİLLA TAHA KÖRDÜĞÜM**
+
+- GitHub: [@AtillaTahak](https://github.com/AtillaTahak)
+- Twitter: [@AtillaTahaa](https://twitter.com/AtillaTahaa)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/atilla-taha-kördüğüm-a93702186/)
+- Blog: [Blog](atillataha.blogspot.com)
+- Youtube: [YouTube](https://www.youtube.com/channel/UCmoD0x4Z9vdG2PCsI5p8FYg)
+
+
+# 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/AtillaTahak/space-travelers/issues).
+
+# Show your support
+
+Give a ⭐️ if you like this project!
+
+# Acknowledgement
+- Hat tip to anyone whose code was a source of inspiration.
+- A big thanks to [@microverseinc](https://github.com/microverseinc) 
+
+# 📝 License
+
+This project is [MIT](./MIT.md) licensed.
