@@ -1,7 +1,7 @@
 class GroupController < ApplicationController
   before_action :authenticate_user!
   def index
-    @categories = Group.where(user_id: current_user.id)
+    @categories = Group.where(user_id: current_user.id).order(created_at: :asc)
   end
 
   def new

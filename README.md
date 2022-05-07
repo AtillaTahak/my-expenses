@@ -86,6 +86,7 @@ Give a ⭐️ if you like this project!
 # Acknowledgement
 - Hat tip to anyone whose code was a source of inspiration.
 - A big thanks to [@microverseinc](https://github.com/microverseinc) 
+- Thank you for [Gregoire Vella](https://www.behance.net/gregoirevella) on Behance the author of the original design
 
 # 📝 License
 
