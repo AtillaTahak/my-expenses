@@ -11,9 +11,9 @@ introduce new transactions associated with a category.
 see the money spent on each category.
 
 # Demo Link
-[Click here](https://epic-benz-1e003c.netlify.app)
+[Click here](https://myexpenses11.herokuapp.com)
 # Loom Video
-[Click here](https://www.loom.com/share/7989bc3a0ddb4740b5f0f01e8c072c7a)
+[Click here](https://www.loom.com/share/e621a6f3e14e4636ac38eba0790f8ec7)
 
 
 # Screenshot
