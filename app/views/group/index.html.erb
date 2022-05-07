@@ -1,0 +1,42 @@
+<section class="group-index">
+<div class="group-header">
+  <%= link_to ('<i class="fa fa-arrow-left"></i>').html_safe, root_path, { 'class': 'arrow'} %>
+
+<h2 class="group-index-h2">Groups</h2>
+  <%= button_to 'LOG OUT', destroy_user_session_path, method: :delete, class: 'btn btn-primary' %>
+</div>
+<div class="group-body">
+<%if @categories %>
+<% @categories.each do |category|%>
+<div class="card mb-3" style="max-width: 540px;">
+  <div class="row g-0">
+    <div class="col-md-4">
+    <div class="group-body-title">
+          <i class ="<%= example_img(category) %>">
+      </i>
+      <h5 class="card-title"><%= category.name %></h5>
+    </div>
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <p class="card-text"><small class="text-muted"><%= category.created_at%></small></p>
+         <a href = "/users/<%= category.user_id %>/group/<%= category.id %>/entity" class="btn btn-primary">Go Category Details</a>
+         <div id="<%= dom_id category %>" class="name_list">
+          <h4>Total: <%= category.total_funds %> $</h4>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<%end%>
+<%end%>
+<div class='add-ne-category-btn-container-main'>
+  <div class= 'add-ne-category-btn-container'>
+    <%= link_to 'ADD A NEW CATEGORY', new_user_group_path(current_user), class:  'add-ne-category-btn text-gray-4' %>
+  <div>
+<div>
+
+</div>
+
+</section>
+
