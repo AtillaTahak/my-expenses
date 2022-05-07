@@ -1,7 +1,7 @@
 
 <div class="nav-header ">
  <div>
-   <%= link_to ('<i class="fa fa-arrow-left"></i>').html_safe, :back, { 'class': 'arrow'} %>
+   <%= link_to ('<i class="fa fa-arrow-left"></i>').html_safe, root_path, { 'class': 'arrow'} %>
 
     </div>
   <h4 class="text-gray-4 ">Expenses</h4> 
@@ -14,7 +14,7 @@
 <% if @entities.count > 0 %>
   <div class=" flex-column">
     <p> <strong>Category:</strong> <%= @group_id.name %> </p>
-    <p><strong>Total:</strong> <%= @group_id.total_funds %> </p>
+    <p><strong>Total:</strong> <%= @group_id.total_funds %> $ </p>
   </div>
   <%end %>
 </div>

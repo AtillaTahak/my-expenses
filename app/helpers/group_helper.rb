@@ -12,7 +12,7 @@ module GroupHelper
     when 'other'
       'fa fa-bag-personal'
     else
-     'fa fa-graduation-cap'
+      'fa fa-graduation-cap'
     end
   end
 end
