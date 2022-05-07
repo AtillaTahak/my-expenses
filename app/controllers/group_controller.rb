@@ -1,5 +1,5 @@
 class GroupController < ApplicationController
-    before_action :authenticate_user!
+  before_action :authenticate_user!
   def index
     @categories = Group.where(user_id: current_user.id)
   end
@@ -15,7 +15,7 @@ class GroupController < ApplicationController
       flash[:success] = 'group created succesfully'
       redirect_to "/users/#{current_user.id}/group"
     else
-     flash[:fail] = 'fails'
+      flash[:fail] = 'fails'
       render 'new'
     end
   end
