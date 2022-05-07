@@ -1,0 +1,6 @@
+<%= form_with model: @group, url:'/group/' do |form| %>
+ <%= form.hidden_field :user_id, value: current_user.id %>
+ <%= form.text_field :name %>
+ <%= form.text_field :icon %>
+ <%= form.submit %>
+<% end %>

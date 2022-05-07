@@ -1,0 +1,8 @@
+<%= form_with model: @entity,url:entity_index_path do |form| %>
+<%= form.hidden_field :user_id, value:current_user.id %>
+<%= form.text_field :name %>
+<%= form.text_field :amount %>
+<%= form.select :group_id, @groups.map {|group| [group.name, group.id ]} %>
+
+<%= form.submit %>
+<%end%>
